@@ -12,9 +12,9 @@ A Rust-based bot that monitors your Gmail inbox and automatically posts importan
 
 ## 🛠️ Environment Setup (.env)
 
-####Create a `.env` file in the project root with the following keys:
-####CLIENT_ID=your-google-client-id
-####CLIENT_SECRET=your-google-client-secret
-####REDIRECT_URI=http://localhost:3000/oauth2/gmail-bot
-####DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/your-webhook-id
+ - Create a `.env` file in the project root with the following keys:
+ - CLIENT_ID=your-google-client-id
+ - CLIENT_SECRET=your-google-client-secret
+ - REDIRECT_URI=http://localhost:3000/oauth2/gmail-bot
+ - DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/your-webhook-id
 
